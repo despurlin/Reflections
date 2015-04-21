@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    It focused only on the differences between the files.
+
+How is the staging area different from the working directory and the repository? 
+
+    It tracks the files to be committed on the next commit command.
+
+What value do you think it offers?
+    
+    It allows for grouping related changes in different files for a single commit.
+
+Notes:
+git config --global color.ui auto
+git config --global core.editor "'C:/Windows/notepad.exe' -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+git diff (version1) (version2)
+git log
+git checkout (version)
+git init
+git status
+git add (file)
+git commit
+
+
+
+
+git config core.editor " 'C:/windows\notepad.exe' -multiInst -notabbar -nosession -noPlugin "
